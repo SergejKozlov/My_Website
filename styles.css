@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+html {
+    background-color: rgba(0, 255, 0, .1) ;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: 777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255,255, .3);
+}
+
+main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 255, 0, .1);
+    border-radius: 10px;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/darkgreen.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.name {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-section {
+    margin: 100;
+}
+
+.container {
+    margin: 0; auto;
+    padding: 0 1.5em;
+}
+
+.profile {
+    float: left;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/darkgreen.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.socials {
+    color: white;
+    font-weight: bolder;
+    text-align: start;
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+    place-content: center;
+  }
+  
+  #slider {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  #slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #slider img.active {
+    opacity: 1;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  button#prev {
+    left: 10px;
+  }
+  
+  button#next {
+    right: 10px;
+  }
+
+  div.about {
+    text-align: center;
+  }
+
+  div.blog {
+    text-align: center;
+  }
+
+  div.container1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  div.newsletter {
+    text-align: center;
+  }
+
+  div.main-footer-container {
+    margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #Qbtn {
+    position: sticky;
+    background-color: #CC7722 ;
+    border-radius: 5px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: medium;
+  }
+
+  div.quotes {
+    text-align: center;
+  }
+
+  div.writer {
+    padding-bottom: 15px;
+  }
+
+  div.newsletter {
+    padding-bottom: 20px;
+  }
